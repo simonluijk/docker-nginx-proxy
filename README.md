@@ -8,7 +8,7 @@ Simply link to a container
 
 Link to a container but use a custom port
 
-    docker run --link=yourcontainer:app --env=APP_PORT=9000 --publish=80:80 simonluijk/nginx-proxy
+    docker run --link=yourcontainer:app --env=PORT=9000 --publish=80:80 simonluijk/nginx-proxy
 
 Set custom proxy endpoint
 
